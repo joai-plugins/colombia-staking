@@ -1,0 +1,38 @@
+{
+  "name": "joai-colombia-staking",
+  "version": "0.1.0",
+  "description": "Connect Colombia Staking to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+  "author": {
+    "name": "JoAi",
+    "email": "support@joai.ai",
+    "url": "https://joai.ai"
+  },
+  "homepage": "https://joai.ai/en/apps/colombia-staking",
+  "repository": "https://github.com/JoAiHQ/plugins",
+  "license": "MIT",
+  "keywords": [
+    "joai",
+    "mcp",
+    "colombia-staking"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Colombia Staking by JoAi",
+    "shortDescription": "Connect Colombia Staking to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server.",
+    "longDescription": "A staking provider on the MultiversX network",
+    "developerName": "JoAi",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive"
+    ],
+    "websiteURL": "https://joai.ai/en/apps/colombia-staking",
+    "privacyPolicyURL": "https://legal.vleap.ai/policies/privacy.html",
+    "termsOfServiceURL": "https://legal.vleap.ai/general/legal-notice.html",
+    "defaultPrompt": [
+      "List the Colombia Staking tools available in this app.",
+      "Explain what setup or authentication Colombia Staking needs before I run an action.",
+      "Use Colombia Staking to help me with the task I describe next."
+    ]
+  }
+}
