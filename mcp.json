@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "joai-colombia-staking": {
+      "url": "https://cortex.joai.ai/mcp/apps/colombia-staking"
+    }
+  }
+}

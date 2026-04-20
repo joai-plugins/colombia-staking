@@ -1,0 +1,18 @@
+interface:
+  display_name: "Colombia Staking"
+  short_description: "Connect Colombia Staking to Claude, Codex, and ChatGPT through JoAi's hosted MCP app server."
+  icon_small: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/colombia-staking.png"
+  icon_large: "https://raw.githubusercontent.com/JoAiHQ/assets/refs/heads/main/apps/logos/colombia-staking.png"
+  brand_color: "#62DBB8"
+  default_prompt: "List the Colombia Staking tools available in this app."
+
+policy:
+  allow_implicit_invocation: true
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "joai-colombia-staking"
+      description: "Colombia Staking MCP server by JoAi"
+      transport: "streamable_http"
+      url: "https://cortex.joai.ai/mcp/apps/colombia-staking"
